@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Overview}{2}{0}{1}
+\beamer@sectionintoc {2}{Anatomy of a Spark Application}{7}{0}{2}
+\beamer@sectionintoc {3}{Resilient Distributed Datasets}{11}{0}{3}
