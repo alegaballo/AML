@@ -12,8 +12,6 @@ Notebooks require to address several challenges, that can be roughly classified 
 * Working on experimental validation
 
 ## Technical notes
-This repository contains what we could call "solved exercises". Students will work on a different version of each notebook, that requires answering questions, writing code, and commenting results.
-
 Students will use the EURECOM cloud computing platform to work on Notebooks. Our cluster is managed by [Zoe](http://zoe-analytics.eu/), which is a container-based analytics-as-a-service system we have built. Notebooks front-end run in a user-facing container, whereas Notebooks kernel run in clusters of containers. For this course, we focus on Apache Spark kernel.
 
 Our Notebooks are configured to use Spark Python API. This choice is motivated by the heterogeneity we expect from our students' background.
@@ -25,4 +23,4 @@ Some Notebooks are instead based on publicly available data, for which we define
 
 Finally, some Notebooks are private, and cannot be pushed to this repository. This is the case for industrial Notebooks, taking the form of use cases by Data Scientists from companies we are in contact with.
 
-Finally, all this could not be achieved without the skills of [Duc-Trung Nguyen](http://www.eurecom.fr/en/people/nguyen-duc-trung), PhD student in my group at Eurecom.
+Finally, all this could not be achieved without the skills of [Duc-Trung Nguyen](http://www.eurecom.fr/en/people/nguyen-duc-trung), PhD student in the Distributed Systems Group at Eurecom.
