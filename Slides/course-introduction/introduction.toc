@@ -1,4 +1,0 @@
-\beamer@endinputifotherversion {3.36pt}
-\select@language {english}
-\beamer@sectionintoc {1}{Overview}{2}{0}{1}
-\beamer@sectionintoc {2}{Infrastructure}{12}{0}{2}
