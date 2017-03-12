@@ -1,7 +1,7 @@
 # Algorithmic Machine Learning
-This repository contains Jupyter Notebooks for the [Algorithmic Machine Learning Course]{https://github.com/DistributedSystemsGroup/Algorithmic-Machine-Learning} at [Eurecom]{http://www.eurecom.fr/en}.
+This repository contains Jupyter Notebooks for the [Algorithmic Machine Learning Course](https://github.com/DistributedSystemsGroup/Algorithmic-Machine-Learning) at [Eurecom](http://www.eurecom.fr/en).
 
-This notebooks are completed by [Alessandro Gaballo]{http://www.github.com/alegaballo} and [Daniele Reda]{http://www.github.com/rdednl}.
+This notebooks are completed by [Alessandro Gaballo](http://www.github.com/alegaballo) and [Daniele Reda](http://www.github.com/rdednl).
 
 
 # Notes on the course
