@@ -1,10 +1,10 @@
 # Algorithmic Machine Learning
-This repository contains Jupyter Notebooks for the Algorithmic Machine Learning Course at Eurecom.
+This repository contains Jupyter Notebooks for the [Algorithmic Machine Learning Course]{https://github.com/DistributedSystemsGroup/Algorithmic-Machine-Learning} at [Eurecom]{http://www.eurecom.fr/en}.
 
-This notebooks are completed by Alessandro Gaballo and Daniele Reda.
+This notebooks are completed by [Alessandro Gaballo]{http://www.github.com/alegaballo} and [Daniele Reda]{http://www.github.com/rdednl}.
 
 
-#Notes on the course
+# Notes on the course
 
 ## Objectives of the course
 The goal of this course is mainly to offer students to gain hands-on experience on Data Science projects. It nicely merges the theoretical concepts students can learn in our courses on machine learning and statistical inference, and systems concepts we teach in distributed systems.
