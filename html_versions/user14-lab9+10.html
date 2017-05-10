@@ -12005,7 +12005,7 @@ We put a flag <code>sqrt</code> in order to make even faster the computation of 
 <div class="alert alert-success">
 Using numpy actually, we were able to improve the speed of this function and this will help us in the long computations in the final questions of the notebook.
 <br><br>
-The speed test was performed with simple numbers and run 10 thousand times and we can still see that numpy lowers the time taken from 15 seconds to 10 seconds (different results may appear above because those cells have been run many times after this comment has been wrote) but afterwards, when using this functions many more times, the difference is sensible.
+The speed test was performed with simple numbers and run 10 thousand times and we can still see that numpy lowers the time taken from 15 seconds to 10 seconds (different results may appear above because those cells have been run many times after this comment has been wrote) but afterwards, when using this function many more times, the difference is sensible.
 </div>
 </div>
 </div>
@@ -20820,7 +20820,7 @@ IYQQQgghhBB6Q5JVQgghhBBCCCGEEEJv/D9fUpYWFiFIiAAAAABJRU5ErkJggg==
 <div class="alert alert-success">
 There are 23 different labels but actually we can immediately see that the data is not equally divided.
 <br><br>
-Of the nearly 5 million connections, more than a half are labelled as <i>smurf</i> and other 2 millions are equally divided as <i>neptune</i> and <i>normal</i>. We computed above the amount of connections that this first 3 labels amount for.
+Of the nearly 5 million connections, more than a half are labelled as <i>smurf</i> and other 2 millions are equally divided as <i>neptune</i> and <i>normal</i>. We computed above the amount of connections that these first 3 labels amount for.
 <br>
 As we can see, of the 4898431, 4852684 are dedicated to just 3 labels leaving less than 40 thousand connections to the remaining 20 labels.
 <br><br>
@@ -21880,7 +21880,7 @@ IcIJAADAIcIJAADAIcIJAADAIcIJAADAIcIJAADAob8A/qUz4TQP9I8AAAAASUVORK5CYII=
 <div class="alert alert-success">
 Also the plot above doesn't make a lot of sense but that is just the case because we plotted the first values on 3 random axis.
 <br><br>
-A relevant information that we can get from this plot, even though it plots only the first 1000 connections data, is that feature 2 is almost the same (other than the point on the right side) for every point and so maybe this feature doesn't contain much information.
+A relevant information that we can get from this plot, even though it plots only 1% of the connections data, is that feature 2 is almost the same (other than the point on the right side) for every point and so maybe this feature doesn't contain much information.
 <br><br>
 A good technique to get the best features and to understand how much of the information is contained in them is to use PCA.
 </div>
@@ -25013,7 +25013,7 @@ We used this library just to provide the variance explanation since we had no ti
 <br><br>
 As printed above, we can see that the first two principal components provide the totality of the information and the third component adds 0% of information.
 <br>
-This can also be seen in the plots above where one of the dimensions in the 3D-plot is useless.
+This can also be seen in the plots above where one of the dimensions in the 3D-plot isn't that much used.
 </div>
 </div>
 </div>
@@ -25129,7 +25129,7 @@ Time needed: 5.279970645904541
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="alert alert-success">
-In the KMeans documentation, we found a method called <code>public double computeCost(RDD&lt;Vector&gt; data)</code> that actually computer the same information but in a much faster way.
+In the KMeans documentation, we found a method called <code>public double computeCost(RDD&lt;Vector&gt; data)</code> that actually computes the same information but in a much faster way.
 <br>
 We wrote the time of both methods and the improving factor is approximately 10.
 </div>
@@ -25244,7 +25244,7 @@ Cluster     1	Number of classes:         23
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="alert alert-success">
-As we can see from this results, all of the data but 5 elements goes in one cluster while 5 elements labeled as <i>portsweep</i> go in the second cluster. (at least that was the result at the time of the comment but sometimes as we said before the result are different).
+As we can see from these results, all of the data but 5 elements goes in one cluster while 5 elements labeled as <i>portsweep</i> go in the second cluster. (at least that was the result at the time of the comment but sometimes as we said before the result are different).
 <br>
 One cluster usually gets almost all the classes while the other one gets 1 or 0 classes (portsweep, more specifically).
 <br><br>
@@ -30337,7 +30337,7 @@ features =
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="alert alert-success">
-Let's plot the data and see how this categorical features split the data.
+Let's plot the data and see how these categorical features split the data.
 </div>
 </div>
 </div>
@@ -33354,11 +33354,11 @@ ERHRmP4/Ia/C3TJ7GFIAAAAASUVORK5CYII=
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="alert alert-success">
-In our opinion, checking the clsutering score for just clusters with 80+ clusters up to 160 didn't make a lot of sense. We want to see also how it performs with a smaller $k$, but still enough large to contain all the possible labels. This is why we increased the <code>k_vector</code> from 20 up to 160.
+In our opinion, checking the clustering score for just clusters with 80+ clusters up to 160 didn't make a lot of sense. We want to see also how it performs with a smaller $k$, but still enough large to contain all the possible labels. This is why we increased the <code>k_vector</code> to span from $k$=20 up to $k$=160.
 <br><br>
 As before, we plotted both the trend of the clustering score and the relationship between effective and desired number of clusters.
 <br><br>
-As we can see, the clustering score improves as $k$ increases, but remains almost the same from k=100 onwards.
+As we can see, the clustering score improves as $k$ increases, but remains almost the same from $k$=100 onwards.
 <br>
 We can also see a first "bump" when $k$ increases from 80 to 90 that is the best improvement we were able to get from one hop to the next one.
 <br><br>
@@ -33454,7 +33454,7 @@ Effective clusters: 39
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="alert alert-success">
-Even here we can see that even though we start with 120 clusters, the model degenerates to only 68 clusters since some of them remain with 0 elements.
+Even here we can see that even though we start with 120 clusters, the model degenerates to only 39 clusters since some of them remain with 0 elements.
 </div>
 </div>
 </div>
@@ -35103,13 +35103,13 @@ CAkkugAAAAAAABASSHQBAAAAAAAgJJDoAgAAAAAAQEj4B2DRQdXNII8GAAAAAElFTkSuQmCC
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="alert alert-success">
-The first plot shows the 10000 points with the largest distance from the cluster. As we can see, after an initial peak of 30 (probably the anomalous connections), the distance from the cluster tends to get smaller. This means that the majority of the clusters are packed up together and the outliers could be easily detected.
+The first plot shows the 10000 points with the largest distance from the cluster. As we can see, after an initial peak of 100/200 (probably the anomalous connections), the distance from the cluster tends to get smaller. This means that the majority of the clusters are packed up together and the outliers could be easily detected.
 <br><br>
 The second plot is a zoom in of just the bottom part (with a limit on the y range) and we can see that actually zooming in, the plot continues to slope down until 2400-2500 connections and then stays to a "small" distance for the rest of the plot.
 <br><bR>
 The next two plots are just a zoom in on the top-100 and top-50 furthest connections.
 <br><br>
-Other than the first plot, this zoom-in allow us to decide which is the best threshold to use to divide anomalous connections from the normal ones.
+Other than the first plot, the other 3 plots allow us to decide which is the best threshold to use to divide anomalous connections from the normal ones.
 <br><br>
 As we can see, the first 20/30 points span a distance from 1 million to 7 million, and considering the first 2500 points (remember that the full dataset is 5 million points so 2500 points is just 0.05%) the distance drops from 7 million to almost 5000. This number alone doesn't say a lot, since to evaluate the error the distance is squared, but noticing that after that slope the distance is almost constant makes us think to put that number as threshold.
 <br><br>
@@ -36756,7 +36756,7 @@ where
 <li>$n_\omega$ is the number of points in cluster $\omega$
 </ul>
 <br><br>
-In simple words, entropy represents the "mess" or "disorder" inside each cluster. And how disorded is defined? As the number of connections of different labels, and so different connections, that were grouped together. In other words, when we cluster, we don't use the label attribute but just the other 38 attributes. To evaluate the entropy, we look at the labels and we check if the different labels were grouped together or are apart from each other. This is a good metric since each label should represent a good grouping of the different connections. 
+In simple words, entropy represents the "mess" or "disorder" inside each cluster. And how is <i>disorder</i> defined? As the number of connections of different labels, and so different connections, that were grouped together. In other words, when we cluster, we don't use the label attribute but just the other 38 attributes. To evaluate the entropy, we look at the labels and we check if the different labels were grouped together or are apart from each other. This is a good metric since each label should represent a good grouping of the different connections. 
 <br><br>
 Our definition of entropy and our code below follow the definitions from the <a href="https://nlp.stanford.edu/IR-book/">Introduction to Information Retrieval</a> book from Stanford, more specifically <a href="https://nlp.stanford.edu/IR-book/html/htmledition/evaluation-of-clustering-1.html">this</a> chapter.
 </div>
