@@ -3,18 +3,11 @@ This repository contains Jupyter Notebooks for the [Algorithmic Machine Learning
 
 These notebooks are completed by [Alessandro Gaballo](http://www.github.com/alegaballo) and [Daniele Reda](http://www.github.com/rdednl).
 
+# Notes on the notebooks
 
-# Notes on the course
-
-## Objectives of the course
-The goal of this course is mainly to offer students to gain hands-on experience on Data Science projects. It nicely merges the theoretical concepts students can learn in our courses on machine learning and statistical inference, and systems concepts we teach in distributed systems.
-
-Notebooks require to address several challenges, that can be roughly classified in:
-
-* Data preparation and cleaning
-* Building descriptive statistics of the data
-* Working on a selected algorithm, e.g., for building a statistical model, for running parallel Monte Carlo simulations and so on...
-* Working on experimental validation
-
-## Sources and acknowledgments
-The majority of the Notebooks we use in our lectures are based on use cases illustrated in the book [Advanced Analytics with Spark](http://shop.oreilly.com/product/0636920035091.do), by Sandy Ryza, Uri Laserson, Sean Owen & Josh Wills.
+* **[Lecture 2]** Introduction to PySpark
+* **[Lecture 3+4]** Recommender algorithm - Music recommendations
+* **[Lecture 5+6]** Regression algorithm - Using Random Forests to predict Airplane Delays
+* **[Lecture 7+8]** Estimating Financial Risk through Monte Carlo Simulation
+* **[Lecture 9+10]** Anomaly Detection in Network Traffic with K-means clustering
+* **[Lecture 11+12]** Analyzing Neuroimaging Data with PySpark and Thunder
