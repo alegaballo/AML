@@ -1,7 +1,7 @@
 # Algorithmic Machine Learning
 This repository contains Jupyter Notebooks for the [Algorithmic Machine Learning Course](https://github.com/DistributedSystemsGroup/Algorithmic-Machine-Learning) at [Eurecom](http://www.eurecom.fr/en).
 
-These notebooks are completed by [Alessandro Gaballo](http://www.github.com/alegaballo) and [Daniele Reda](http://www.github.com/rdednl).
+These notebooks are jointly completed by [Alessandro Gaballo](http://www.github.com/alegaballo) and [Daniele Reda](http://www.github.com/rdednl).
 
 # Notes on the notebooks
 
@@ -10,3 +10,5 @@ These notebooks are completed by [Alessandro Gaballo](http://www.github.com/aleg
 * **[Lecture 7+8]** Estimating Financial Risk through Monte Carlo Simulation
 * **[Lecture 9+10]** Anomaly Detection in Network Traffic with K-means clustering
 * **[Lecture 11+12]** Analyzing Neuroimaging Data with PySpark and Thunder
+
+*Note: [Lecture 1+2] were just an introduction to the course with no notebook to complete.*
