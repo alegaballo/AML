@@ -5,7 +5,6 @@ These notebooks are completed by [Alessandro Gaballo](http://www.github.com/aleg
 
 # Notes on the notebooks
 
-* **[Lecture 2]** Introduction to PySpark
 * **[Lecture 3+4]** Recommender algorithm - Music recommendations
 * **[Lecture 5+6]** Regression algorithm - Using Random Forests to predict Airplane Delays
 * **[Lecture 7+8]** Estimating Financial Risk through Monte Carlo Simulation
